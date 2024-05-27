@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 if __name__ = "__main__":
-    import add_0 as sum
+    """print sum of a and b."""
+    from add_0 import add
+
     a = 1
     b = 2
-    result = sum.add(a, b)
-    print("{} + {} = {}".format(int(a), int(b), int(result)))
+    print("{} + {} = {}".format(a, b, add(a, b)))
